@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #FFFFFF; /* White background */
+  color: #333; /* Dark text for better contrast on white background */
+}
+
+.game-container {
+  background-color: #FFFFFF; /* White background for the container */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  width: 350px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #1E90FF; /* Blue color to match the theme */
+}
+
+h2 {
+  color: #333; /* Dark text color for headers */
+  margin-bottom: 20px; /* Spacing between headers and content */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid #1E90FF; /* Blue border for buttons */
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #FF4500; /* Red background color for buttons */
+  color: #FFFFFF; /* White text for buttons */
+  transition: transform 0.2s, background-color 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #1E90FF; /* Blue background color on hover */
+  color: #FF4500; /* Red text on hover */
+}
+
+span {
+  font-weight: bold;
+  color: #1E90FF; /* Blue color for the choices and result */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sign {
+  margin: 5px 10px;
+  font-size: 2rem; 
+}
